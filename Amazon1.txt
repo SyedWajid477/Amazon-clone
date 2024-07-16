@@ -1,0 +1,169 @@
+/* Reset some basic styles */
+body, h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic body styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131921;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Banner styling */
+.banner img {
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+}
+
+/* Product section styling */
+.product-section {
+    flex-wrap: wrap;
+    padding: 20px;
+    /* height: fit-content; */
+}
+
+.product-section h2 {
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 23%;
+    text-align: center;
+    margin-top: 20px;
+}
+.product p{
+    margin-top: 10px;
+}
+.product img {
+    max-width: 100%;
+    height: 100%;
+    
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #131921;
+    color: white;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #232F3E;
+    color: white;
+    padding: 40px 20px;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-column {
+    width: 23%;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-column a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #3a4553;
+    padding-top: 20px;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-bottom-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-bottom-links a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.footer-bottom-links a:hover {
+    color: white;
+    text-decoration: underline;
+}
